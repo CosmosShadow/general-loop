@@ -1,6 +1,6 @@
 # General Loop
 
-**A file-native coordination loop for long-running AI work.**
+**A file-native coordination loop that keeps AI teams moving across projects and operations.**
 
 [中文 README](README.zh-CN.md) · [Official case study](https://shennian.net/blog/general-loop) · [Source and license](SOURCE.md) · [MIT License](LICENSE)
 
@@ -22,6 +22,17 @@ One agent conversation works well for one bounded task. Large projects are diffe
 - if a person must repeatedly open every conversation, ask for status, and decide the next prompt, that person becomes the outer loop.
 
 General Loop moves that outer loop into an Agent that can be woken periodically, inspect real execution, coordinate the next action, and write the result back to the project.
+
+## From software delivery to an AI-native company loop
+
+General Loop does not limit execution roles. Product, development, QA, release, operations, and support Agents can all work through the same Tasks. With Shennian AI group chats, customer feedback can be clarified by a support Agent, recorded as a Task, coordinated by the Loop through investigation, fixes, QA, and release, and then returned to support for customer follow-up:
+
+```text
+Customer feedback → support Agent clarifies and writes a Task → Loop coordinates
+                  → investigation / development / QA / release Agents → support follows up
+```
+
+The same Loop can therefore connect internal delivery and external customer entry points. People still own goals, risk, and authority; the Agent team continuously maintains day-to-day ownership, status, and evidence.
 
 ![General Loop architecture](assets/loop-architecture.svg)
 
