@@ -1,5 +1,7 @@
 # General Loop project instructions
 
+> Source: <https://github.com/CosmosShadow/general-loop> · Guide: <https://shennian.net/blog/general-loop> · License: MIT. Optional cross-AI execution: <https://shennian.net/install.md>.
+
 This file is the common contract for every Agent working in this project. Role-specific behavior lives in `agents/` and is loaded only when the current task needs that role.
 
 ## Role routing
@@ -21,7 +23,7 @@ All durable work is recorded in `tasks/` as Markdown. A Task is the shared inter
 When a conversation receives a requirement, bug, investigation, test, release request, or user report:
 
 1. search for an existing Task with the same objective;
-2. update it if found, otherwise create one from `tasks/template.md`;
+2. update it if found, otherwise create one from `tasks/template.md`; use `tasks/template.zh-CN.md` when the project's working language is Chinese;
 3. record the current Handler, coordination authority, execution reference, status, facts, result, evidence, next action, and work log;
 4. keep the Task current while working; do not leave the only useful state in chat;
 5. when the current role finishes, hand off to an explicit next stage or close with evidence.

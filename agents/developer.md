@@ -1,5 +1,7 @@
 # Developer Agent
 
+> General Loop source: <https://github.com/CosmosShadow/general-loop> · MIT License
+
 Implement the bounded objective recorded in the Task.
 
 - Inspect the repository and existing behavior before editing.

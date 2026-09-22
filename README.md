@@ -2,6 +2,8 @@
 
 **A file-native coordination loop for long-running AI work.**
 
+[中文 README](README.zh-CN.md) · [Official case study](https://shennian.net/blog/general-loop) · [Source and license](SOURCE.md) · [MIT License](LICENSE)
+
 General Loop turns a folder of Markdown tasks into the shared coordination surface for one Loop Agent, many execution Agents, and the people working with them. It is a protocol and a set of prompts—not a new agent runtime or cloud service.
 
 The name joins the same open-source family as [GeneralAgent](https://github.com/CosmosShadow/GeneralAgent), while remaining independent from that runtime.
@@ -45,17 +47,34 @@ On each wake-up, the Loop:
 
 The schedule is a wake-up mechanism, not the intelligence of the system. The Loop Agent still makes the project-specific judgment.
 
-## Quick start with Codex
+## Add it in two minutes
 
-Copy this repository's `AGENTS.md`, `agents/`, and `tasks/` into your project, or open this repository as a starting workspace. Then ask Codex:
+Give this first prompt to the AI working in your project. It configures the protocol without forcing the current conversation to become the Loop:
 
 ```text
-You are the Loop role for this project. Read AGENTS.md and agents/loop.md,
-inspect the Task library, and begin coordination. Configure a periodic wake-up
-for this same conversation if the host supports it.
+Read the official General Loop guide (https://shennian.net/blog/general-loop)
+and open-source project (https://github.com/CosmosShadow/general-loop), then add
+General Loop to this project. Use README.md and tasks/template.md and configure
+the required AGENTS.md, agents/, and tasks/ for the current project structure.
+When configuration is complete, ask whether I want this conversation to become
+the project's only Loop and begin coordination now. If cross-AI execution is
+needed, explain why and ask before using https://shennian.net/install.md and
+https://shennian.net/skill.md to add Shennian.
 ```
 
-Codex can use its native task/thread and automation capabilities. No additional service is required for the core workflow. See [Codex setup](docs/codex.md).
+Then send the second prompt to start that conversation as the Loop:
+
+```text
+Yes. Make this conversation the project's only Loop and begin coordinating all
+existing Tasks now. Prefer the host's native recurring task to wake every 5
+minutes. If the host has no scheduler but this conversation can safely wait and
+resume, wait 5 minutes after each complete coordination cycle and continue until
+I explicitly pause it or every Task is terminal. Stay quiet when nothing changes,
+and explain that an external wake-up mechanism is required if persistent waiting
+is unsupported.
+```
+
+You can also copy `AGENTS.md`, `agents/`, and `tasks/` manually. Codex can use its native task/thread and automation capabilities; no additional service is required for the core workflow. See [Codex setup](docs/codex.md).
 
 ## Task example
 
@@ -81,7 +100,7 @@ In the first large-project run, the Loop detected a provider quota failure, swit
 
 General Loop uses the host's native Agent and scheduling tools when they are sufficient. If you need to start, observe, continue, or stop a different local AI tool, the optional [Shennian integration](integrations/shennian.md) provides a cross-AI execution layer.
 
-Shennian is not required by the core protocol and is never installed or enabled automatically.
+Shennian is not required by the core protocol and is never installed or enabled automatically. Use the [official website](https://shennian.net), [Client installation guide](https://shennian.net/install.md), and [Skill installation guide](https://shennian.net/skill.md) when you choose to enable it.
 
 ## Data boundary
 
@@ -131,4 +150,4 @@ This is the first public version of the protocol, extracted from a working proje
 
 ## License
 
-MIT
+[MIT](LICENSE). You may freely use, copy, modify, and redistribute General Loop under the license terms. Keep [SOURCE.md](SOURCE.md), the license, or an equivalent upstream reference with copied templates so future readers can find the original project and current documentation.

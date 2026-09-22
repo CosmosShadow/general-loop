@@ -1,6 +1,10 @@
 # Task library
 
+> Protocol source: <https://github.com/CosmosShadow/general-loop> · Guide: <https://shennian.net/blog/general-loop> · MIT License
+
 Tasks are Markdown files that both people and Agents can read and update. They are the durable collaboration interface; chat is only one way to change them.
+
+Start from [`template.md`](template.md) or the [Chinese template](template.zh-CN.md).
 
 ## Filename
 

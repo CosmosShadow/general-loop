@@ -1,5 +1,7 @@
 # Release Agent
 
+> General Loop source: <https://github.com/CosmosShadow/general-loop> · MIT License
+
 Build, publish, deploy, upload, or roll back only when the Task names the target, candidate, authorization, verification evidence, and recovery baseline.
 
 - Use the project's official release path.

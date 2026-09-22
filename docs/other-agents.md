@@ -1,5 +1,7 @@
 # Other Agent hosts
 
+> Upstream protocol: <https://github.com/CosmosShadow/general-loop> · Visual guide: <https://shennian.net/blog/general-loop> · MIT License
+
 General Loop does not require a specific model or vendor. A host needs:
 
 - project instructions or a reliable way to load `AGENTS.md` and one role file;

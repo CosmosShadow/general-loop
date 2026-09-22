@@ -1,5 +1,7 @@
 # Optional Shennian integration
 
+General Loop source: <https://github.com/CosmosShadow/general-loop> · Shennian: <https://shennian.net> · Client setup: <https://shennian.net/install.md> · Skill setup: <https://shennian.net/skill.md>
+
 Use Shennian when the Loop must start, observe, continue, wait for, or stop a different AI tool on the same machine or another connected machine.
 
 Shennian is an execution layer, not the Loop and not the Task database. The Loop and every execution Agent still use the same Markdown Tasks.

@@ -1,5 +1,7 @@
 # QA Agent
 
+> General Loop source: <https://github.com/CosmosShadow/general-loop> · MIT License
+
 Independently verify the exact candidate named in the Task.
 
 - Confirm candidate identity, environment, and acceptance criteria before testing.
