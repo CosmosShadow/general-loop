@@ -22,10 +22,11 @@ Prefer a native recurring task that wakes this same Loop context every five minu
 2. For every active execution, inspect its referenced session and verify that it is still making useful progress.
 3. Respect person-directed coordination and do not duplicate or take over that work.
 4. Identify dependencies, shared-resource conflicts, stale evidence, stalled execution, and work that can safely run in parallel.
-5. Choose the smallest useful next action: wait, clarify, continue, correct, dispatch, test, release, stop, or close.
-6. Prefer continuing the existing Handler. Create another execution only for a genuinely separate role, environment, candidate, or unrecoverable session.
-7. Update the Task with what was observed, what changed, evidence, ownership, and the next action.
-8. Report meaningful changes. Stay quiet when a complete scan found no actionable change.
+5. Schedule by real dependencies and shared resources, not by wake-up order. Tasks that neither depend on one another nor compete for files, candidates, devices, accounts, ports, or release windows should run concurrently under different unique Handlers. Queue, coordinate yielding, or serialize only when a dependency or resource conflict exists.
+6. Choose the smallest useful next action: wait, clarify, continue, correct, dispatch, test, release, stop, or close.
+7. Prefer continuing the existing Handler. Create another execution only for a genuinely separate role, environment, candidate, or unrecoverable session.
+8. Update the Task with what was observed, what changed, evidence, ownership, and the next action.
+9. Report meaningful changes. Stay quiet when a complete scan found no actionable change.
 
 One wake-up is not limited to one scan. If a safe in-scope action can remove a blocker, continue until the Task set reaches a stable point for this cycle.
 

@@ -49,30 +49,19 @@ The schedule is a wake-up mechanism, not the intelligence of the system. The Loo
 
 ## Add it in two minutes
 
-Give this first prompt to the AI working in your project. It configures the protocol without forcing the current conversation to become the Loop:
+Give this prompt to the AI working in your project:
 
 ```text
 Read the official General Loop guide (https://shennian.net/blog/general-loop)
-and open-source project (https://github.com/CosmosShadow/general-loop), then add
-General Loop to this project. Use README.md and tasks/template.md and configure
-the required AGENTS.md, agents/, and tasks/ for the current project structure.
-When configuration is complete, ask whether I want this conversation to become
-the project's only Loop and begin coordination now. If cross-AI execution is
-needed, explain why and ask before using https://shennian.net/install.md and
-https://shennian.net/skill.md to add Shennian.
+and open-source project (https://github.com/CosmosShadow/general-loop), then use
+its instructions and templates to add General Loop to this project, including
+the Loop Agent, execution Agent, and Task Markdown prompt frameworks. Shennian
+(https://shennian.net/install.md, https://shennian.net/skill.md) can be added
+when cross-AI execution is needed. When setup is complete, ask whether I want
+to start this conversation as the project's only Loop.
 ```
 
-Then send the second prompt to start that conversation as the Loop:
-
-```text
-Yes. Make this conversation the project's only Loop and begin coordinating all
-existing Tasks now. Prefer the host's native recurring task to wake every 5
-minutes. If the host has no scheduler but this conversation can safely wait and
-resume, wait 5 minutes after each complete coordination cycle and continue until
-I explicitly pause it or every Task is terminal. Stay quiet when nothing changes,
-and explain that an external wake-up mechanism is required if persistent waiting
-is unsupported.
-```
+Recurring wake-ups, wait-and-resume fallback, silence, and stop conditions belong in the Loop role prompt. The person does not need to copy a second startup command.
 
 You can also copy `AGENTS.md`, `agents/`, and `tasks/` manually. Codex can use its native task/thread and automation capabilities; no additional service is required for the core workflow. See [Codex setup](docs/codex.md).
 

@@ -8,23 +8,16 @@ Codex can provide the complete minimum host when it can:
 2. create, message, inspect, and wait for other Codex tasks;
 3. configure a recurring automation that wakes the same Loop conversation.
 
-First ask Codex to configure the protocol for the current repository:
+Ask Codex to configure the protocol for the current repository:
 
 ```text
 Read the official General Loop guide (https://shennian.net/blog/general-loop)
-and open-source project (https://github.com/CosmosShadow/general-loop), then add
-General Loop to this project. Configure the required AGENTS.md, agents/, and
-tasks/ for the current project structure, then ask whether I want this task to
-become the project's only Loop and begin coordination now.
+and open-source project (https://github.com/CosmosShadow/general-loop), then use
+its instructions and templates to add General Loop to this project. When setup
+is complete, ask whether I want to start this task as the project's only Loop.
 ```
 
-When you want this task to become the active Loop, optionally say:
-
-```text
-Yes. Make this task the project's only Loop and begin coordinating all existing
-Tasks now. Configure a native recurring wake-up every five minutes. Stay quiet
-when nothing changes and continue until I pause it or every Task is terminal.
-```
+The recurring wake-up, silence, and stop rules are already part of `agents/loop.md`; they do not belong in a second user prompt.
 
 Keep exactly one active Loop for one Task library. Execution Tasks may run in parallel when their files, candidates, devices, accounts, and release windows do not conflict.
 

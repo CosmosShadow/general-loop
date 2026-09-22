@@ -23,17 +23,13 @@ Loop 承担 AI 团队的项目经理职责：周期醒来，读取全部 Task，
 
 ## 2 分钟接入
 
-先把这句话交给当前项目中的 AI。它只完成配置，不会强制当前对话立即成为 Loop：
+把下面这句话交给当前项目中的 AI：
 
 ```text
-请阅读 General Loop 官方介绍（https://shennian.net/blog/general-loop）和开源项目（https://github.com/CosmosShadow/general-loop），在当前项目中接入 General Loop；优先使用仓库中的中文说明与中文模板 README.zh-CN.md、tasks/template.zh-CN.md，根据当前项目结构配置所需的 AGENTS.md、agents/ 与 tasks/；配置完成后，请询问我是否要把当前对话设为项目唯一的 Loop 并立即开始协调；如需跨 AI 调起，请先向我说明，并询问是否按 https://shennian.net/install.md 和 https://shennian.net/skill.md 接入神念。
+请参考 General Loop 官方介绍（https://shennian.net/blog/general-loop）和开源项目（https://github.com/CosmosShadow/general-loop），使用中文说明与模板在当前项目接入 General Loop，完整配置 Loop Agent、执行 Agent 和 Task Markdown 三套提示词框架；需要跨 AI 执行时可接入神念（https://shennian.net/install.md、https://shennian.net/skill.md）；完成后，请询问我是否将当前对话启动为项目唯一的 Loop。
 ```
 
-然后发送第二句话，确认让当前对话立即运行 Loop：
-
-```text
-是，请把当前对话设为项目唯一的 Loop 并立即协调现有的全部 Task；优先使用宿主原生周期任务每 5 分钟唤醒，如宿主没有周期任务但支持当前对话持续等待与恢复，则每轮协调结束后等待 5 分钟再继续，直到我明确暂停或所有 Task 终结；没有变化时保持静默，不支持持续等待时说明需要外部唤醒机制。
-```
+周期唤醒、等待续跑、静默和停止条件属于 Loop 角色提示词，不需要用户再复制第二段启动命令。
 
 完整 Task 中文模板见 [`tasks/template.zh-CN.md`](tasks/template.zh-CN.md)。Codex、Claude Code 和其他宿主的说明见 [`docs/`](docs/)。
 
