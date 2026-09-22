@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="620" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 620" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="620"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-620)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="48" y="582" style="font-family: Heiti SC; font-weight: 600; font-size: 25px;fill: rgb(6%,9%,15%); stroke:none;" transform="translate(0,1164) scale(1,-1)">神念：可选的跨 AI 执行层</text>
+			<text x="48" y="552" style="font-family: Heiti SC; font-size: 14px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,1104) scale(1,-1)">原生能力不足时，Loop 可通过神念调起其他 AI 并持续读取状态</text>
+			<path d="M 300,330 L 405,330 Z" style="stroke: rgb(48%,22%,92%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="405 330, 395 335.5, 395 324.5" style="stroke: rgb(48%,22%,92%); stroke-linecap: butt; stroke-width: 1; fill: rgb(48%,22%,92%); fill-rule: evenodd;"/>
+			<polygon points="300 330, 310 324.5, 310 335.5" style="stroke: rgb(48%,22%,92%); stroke-linecap: butt; stroke-width: 1; fill: rgb(48%,22%,92%); fill-rule: evenodd;"/>
+			<path d="M 595,330 L 705,430 Z" style="stroke: rgb(1%,58%,41%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="705 430, 693.9009 427.3429, 701.3003 419.2036" style="stroke: rgb(1%,58%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(1%,58%,41%); fill-rule: evenodd;"/>
+			<polygon points="595 330, 606.0991 332.6571, 598.6997 340.7964" style="stroke: rgb(1%,58%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(1%,58%,41%); fill-rule: evenodd;"/>
+			<path d="M 595,330 L 705,315 Z" style="stroke: rgb(1%,58%,41%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="705 315, 695.8348 321.8007, 694.3486 310.9016" style="stroke: rgb(1%,58%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(1%,58%,41%); fill-rule: evenodd;"/>
+			<polygon points="595 330, 604.1652 323.1993, 605.6514 334.0984" style="stroke: rgb(1%,58%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(1%,58%,41%); fill-rule: evenodd;"/>
+			<path d="M 595,330 L 705,200 Z" style="stroke: rgb(1%,58%,41%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="705 200, 702.7392 211.1865, 694.342 204.0812" style="stroke: rgb(1%,58%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(1%,58%,41%); fill-rule: evenodd;"/>
+			<polygon points="595 330, 597.2608 318.8135, 605.658 325.9188" style="stroke: rgb(1%,58%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(1%,58%,41%); fill-rule: evenodd;"/>
+			<path d="M 205,177 L 205,265 Z" style="stroke: rgb(79%,83%,88%); stroke-linecap: butt; stroke-width: 2; stroke-dasharray: 8, 6;"/>
+			<polygon points="205 265, 199.5 255, 210.5 255" style="stroke: rgb(79%,83%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(79%,83%,88%); fill-rule: evenodd;"/>
+			<polygon points="205 177, 210.5 187, 199.5 187" style="stroke: rgb(79%,83%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(79%,83%,88%); fill-rule: evenodd;"/>
+			<rect x="65" y="265" width="235" height="140" rx="16" ry="16" style="stroke: rgb(48%,22%,92%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(92%,91%,99%); fill-rule: evenodd;"/>
+			<text x="131.05599999999998" y="345.0" style="font-family: Heiti SC; font-weight: 600; font-size: 18px;fill: rgb(48%,22%,92%); stroke:none;" transform="translate(0,690) scale(1,-1)">Loop Agent</text>
+			<text x="150.0" y="313.0" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,626) scale(1,-1)">决定调用谁</text>
+			<text x="118.31899999999999" y="295.0" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,590) scale(1,-1)">何时继续 / 纠偏 / 停止</text>
+			<rect x="405" y="245" width="190" height="170" rx="16" ry="16" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(85%,91%,99%); fill-rule: evenodd;"/>
+			<text x="455.0" y="340.0" style="font-family: Heiti SC; font-weight: 600; font-size: 18px;fill: rgb(14%,38%,92%); stroke:none;" transform="translate(0,680) scale(1,-1)">神念客户端</text>
+			<text x="479.096" y="308.0" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,616) scale(1,-1)">发现 AI</text>
+			<text x="474.0" y="290.0" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,580) scale(1,-1)">调起对话</text>
+			<text x="454.5" y="272.0" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,544) scale(1,-1)">读取或等待状态</text>
+			<text x="454.9095" y="254.0" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,508) scale(1,-1)">追加要求 / 停止</text>
+			<rect x="705" y="390" width="225" height="82" rx="16" ry="16" style="stroke: rgb(1%,58%,41%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(81%,98%,89%); fill-rule: evenodd;"/>
+			<text x="757.2719999999999" y="441.0" style="font-family: Heiti SC; font-weight: 600; font-size: 18px;fill: rgb(1%,58%,41%); stroke:none;" transform="translate(0,882) scale(1,-1)">Claude Code</text>
+			<text x="749.172" y="409.0" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,818) scale(1,-1)">可承担任意 Agent 角色</text>
+			<rect x="705" y="275" width="225" height="82" rx="16" ry="16" style="stroke: rgb(1%,58%,41%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(81%,98%,89%); fill-rule: evenodd;"/>
+			<text x="727.338" y="326.0" style="font-family: Heiti SC; font-weight: 600; font-size: 18px;fill: rgb(1%,58%,41%); stroke:none;" transform="translate(0,652) scale(1,-1)">Qwen Code / Cursor</text>
+			<text x="749.172" y="294.0" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,588) scale(1,-1)">可承担任意 Agent 角色</text>
+			<rect x="705" y="160" width="225" height="82" rx="16" ry="16" style="stroke: rgb(1%,58%,41%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(81%,98%,89%); fill-rule: evenodd;"/>
+			<text x="770.556" y="211.0" style="font-family: Heiti SC; font-weight: 600; font-size: 18px;fill: rgb(1%,58%,41%); stroke:none;" transform="translate(0,422) scale(1,-1)">其他本机 AI</text>
+			<text x="759.0" y="179.0" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,358) scale(1,-1)">被神念发现后可调度</text>
+			<rect x="65" y="95" width="280" height="82" rx="16" ry="16" style="stroke: rgb(79%,83%,88%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(97%,98%,98%); fill-rule: evenodd;"/>
+			<text x="166.759" y="146.0" style="font-family: Heiti SC; font-weight: 600; font-size: 18px;fill: rgb(6%,9%,15%); stroke:none;" transform="translate(0,292) scale(1,-1)">Task 文本</text>
+			<text x="99.297" y="114.0" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,228) scale(1,-1)">记录当前 Agent、恢复信息和下一步</text>
+			<text x="245.43099999999998" y="42" style="font-family: Heiti SC; font-size: 14px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,84) scale(1,-1)">神念负责跨 AI 调起与跟进；Loop 和所有执行 Agent 仍共同读写 Task Markdown</text>
+		</g>
+	</g>
+</svg>

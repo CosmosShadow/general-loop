@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="620" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 620" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="620"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-620)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="48" y="582" style="font-family: Heiti SC; font-weight: 600; font-size: 25px;fill: rgb(6%,9%,15%); stroke:none;" transform="translate(0,1164) scale(1,-1)">General Loop 围绕 Task Markdown 运转</text>
+			<text x="48" y="552" style="font-family: Heiti SC; font-size: 14px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,1104) scale(1,-1)">真人、Loop Agent 和所有执行 Agent 都读取并更新同一个任务库</text>
+			<path d="M 500,445 L 500,410 Z" style="stroke: rgb(48%,22%,92%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="500 410, 505.5 420, 494.5 420" style="stroke: rgb(48%,22%,92%); stroke-linecap: butt; stroke-width: 1; fill: rgb(48%,22%,92%); fill-rule: evenodd;"/>
+			<polygon points="500 445, 494.5 435, 505.5 435" style="stroke: rgb(48%,22%,92%); stroke-linecap: butt; stroke-width: 1; fill: rgb(48%,22%,92%); fill-rule: evenodd;"/>
+			<path d="M 280,330 L 365,330 Z" style="stroke: rgb(91%,34%,4%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="365 330, 355 335.5, 355 324.5" style="stroke: rgb(91%,34%,4%); stroke-linecap: butt; stroke-width: 1; fill: rgb(91%,34%,4%); fill-rule: evenodd;"/>
+			<polygon points="280 330, 290 324.5, 290 335.5" style="stroke: rgb(91%,34%,4%); stroke-linecap: butt; stroke-width: 1; fill: rgb(91%,34%,4%); fill-rule: evenodd;"/>
+			<path d="M 635,330 L 720,330 Z" style="stroke: rgb(1%,58%,41%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="720 330, 710 335.5, 710 324.5" style="stroke: rgb(1%,58%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(1%,58%,41%); fill-rule: evenodd;"/>
+			<polygon points="635 330, 645 324.5, 645 335.5" style="stroke: rgb(1%,58%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(1%,58%,41%); fill-rule: evenodd;"/>
+			<path d="M 150 410 C 175 490 300 510 365 490 " style="stroke: rgb(91%,34%,4%); stroke-linecap: butt; stroke-width: 2; fill: none; fill-rule: evenodd; stroke-dasharray: 8, 6;"/>
+			<path d="M 359.8,491.6 L 365,490 Z" style="stroke: rgb(91%,34%,4%); stroke-linecap: butt; stroke-width: 0.1;"/>
+			<polygon points="365 490, 357.0597 498.1976, 353.8247 487.6841" style="stroke: rgb(91%,34%,4%); stroke-linecap: butt; stroke-width: 1; fill: rgb(91%,34%,4%); fill-rule: evenodd;"/>
+			<path d="M 180 250 C 330 155 680 155 820 250 " style="stroke: rgb(91%,34%,4%); stroke-linecap: butt; stroke-width: 2; fill: none; fill-rule: evenodd; stroke-dasharray: 8, 6;"/>
+			<path d="M 808.8,242.4 L 820,250 Z" style="stroke: rgb(91%,34%,4%); stroke-linecap: butt; stroke-width: 0.1;"/>
+			<polygon points="820 250, 808.637 248.9361, 814.8135 239.8339" style="stroke: rgb(91%,34%,4%); stroke-linecap: butt; stroke-width: 1; fill: rgb(91%,34%,4%); fill-rule: evenodd;"/>
+			<rect x="365" y="245" width="270" height="165" rx="16" ry="16" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(85%,91%,99%); fill-rule: evenodd;"/>
+			<text x="403.835" y="337.5" style="font-family: Heiti SC; font-weight: 600; font-size: 18px;fill: rgb(14%,38%,92%); stroke:none;" transform="translate(0,675) scale(1,-1)">Task Markdown 任务库</text>
+			<text x="435.81899999999996" y="305.5" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,611) scale(1,-1)">需求 / 决策 / 当前进展</text>
+			<text x="435.81899999999996" y="287.5" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,575) scale(1,-1)">结果 / 证据 / 下一动作</text>
+			<text x="416.31899999999996" y="269.5" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,539) scale(1,-1)">协调锁 / 资源占用 / 工作日志</text>
+			<rect x="365" y="445" width="270" height="85" rx="16" ry="16" style="stroke: rgb(48%,22%,92%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(92%,91%,99%); fill-rule: evenodd;"/>
+			<text x="448.556" y="497.5" style="font-family: Heiti SC; font-weight: 600; font-size: 18px;fill: rgb(48%,22%,92%); stroke:none;" transform="translate(0,995) scale(1,-1)">Loop Agent</text>
+			<text x="402.5" y="465.5" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,931) scale(1,-1)">周期唤醒 · 调用工具 · 协调推进</text>
+			<text x="439.8815" y="447.5" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,895) scale(1,-1)">每次行动后更新 Task</text>
+			<rect x="45" y="245" width="235" height="165" rx="16" ry="16" style="stroke: rgb(91%,34%,4%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,92%,83%); fill-rule: evenodd;"/>
+			<text x="144.5" y="337.5" style="font-family: Heiti SC; font-weight: 600; font-size: 18px;fill: rgb(91%,34%,4%); stroke:none;" transform="translate(0,675) scale(1,-1)">真人</text>
+			<text x="110.79899999999999" y="305.5" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,611) scale(1,-1)">直接与 Loop 沟通</text>
+			<text x="87.672" y="287.5" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,575) scale(1,-1)">或与任意执行 Agent 沟通</text>
+			<text x="66.55349999999999" y="269.5" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,539) scale(1,-1)">沟通结论由当前 Agent 写入 Task</text>
+			<rect x="720" y="245" width="235" height="165" rx="16" ry="16" style="stroke: rgb(1%,58%,41%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(81%,98%,89%); fill-rule: evenodd;"/>
+			<text x="772.142" y="337.5" style="font-family: Heiti SC; font-weight: 600; font-size: 18px;fill: rgb(1%,58%,41%); stroke:none;" transform="translate(0,675) scale(1,-1)">多个执行 Agent</text>
+			<text x="762.971" y="305.5" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,611) scale(1,-1)">不同 AI 或不同角色提示词</text>
+			<text x="775.7565" y="287.5" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,575) scale(1,-1)">读取 Task 后执行工作</text>
+			<text x="759.5" y="269.5" style="font-family: Heiti SC; font-size: 13px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,539) scale(1,-1)">持续回写进展、结果与证据</text>
+			<text x="239.0" y="492" style="font-family: Heiti SC; font-size: 13px;fill: rgb(91%,34%,4%); stroke:none;" transform="translate(0,984) scale(1,-1)">直接沟通</text>
+			<text x="319.673" y="140" style="font-family: Heiti SC; font-size: 14px;fill: rgb(91%,34%,4%); stroke:none;" transform="translate(0,280) scale(1,-1)">真人可以直接找任何 Agent；直接对话不会替代 Task 记录</text>
+			<text x="344.63750000000005" y="42" style="font-family: Heiti SC; font-size: 15px;fill: rgb(39%,45%,54%); stroke:none;" transform="translate(0,84) scale(1,-1)">Task 是跨对话、跨角色、跨 AI 的共同协作接口</text>
+		</g>
+	</g>
+</svg>
